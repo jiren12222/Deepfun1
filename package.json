@@ -1,0 +1,14 @@
+{
+  "name": "deepfun-indexer",
+  "version": "1.0.0",
+  "description": "Watches Deepfun contracts on Base mainnet and keeps Supabase updated with real, computed on-chain stats.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
